@@ -12,8 +12,8 @@ import json
 from spotipy.oauth2 import SpotifyClientCredentials
 
 # my Spotify developer account API keys
-client_id = '281ea1736aee4337bbbaad630cc316bb'
-client_secret = '543055effe2e498ab1bea461948ee6bb'
+client_id = 'INSERT YOUR OWN KEYS'
+client_secret = 'INSERT YOUR OWN KEYS'
 
 # get authorization token, create instance of class (SpotifyClientCredentials)
 client_credentials_manager = SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)
