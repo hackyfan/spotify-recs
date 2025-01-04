@@ -27,6 +27,9 @@ Enter one or more of your favorite songs by this artist, separated by commas. Ma
 > Boys in the Better Land
 
 Here are the qualities of your song:
+<pre>
+<code>
+{
     "danceability": 0.742,
     "energy": 0.945,
     "key": 5,
@@ -45,6 +48,10 @@ Here are the qualities of your song:
     "analysis_url": "https://api.spotify.com/v1/audio-analysis/0Cn4UhpHhgf88eWaS9nn5u",
     "duration_ms": 256693,
     "time_signature": 4
+}
+</code>
+</pre>
+
 
 Do you want to pick the artist to find a similar song from?
 yes/no
