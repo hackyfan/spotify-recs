@@ -24,15 +24,27 @@ Welcome to Lillian's Spotify Music Analyzer Service.
 
 Who's an artist you already like? Fontaines D.C.
 Enter one or more of your favorite songs by this artist, separated by commas. Make sure it is spelled correctly: 
-> Boys in the Better Land, Televised Mind
+> Boys in the Better Land
 
-After analyzing your songs, here are your recommendations:
-1. Sha Sha Sha by Fontaines D.C.
-   https://open.spotify.com/track/7BFwBubozsalZrZKGUAYJq
-2. You Said by Fontaines D.C.
-   https://open.spotify.com/track/6Xc20TtVbAAoxGIKHEqIwQ
-3. A Hero's Death by Fontaines D.C.
-   https://open.spotify.com/track/0sxx8bEWlTBmbw0X1Abgc3
+Here are the qualities of your song:
+    "danceability": 0.742,
+    "energy": 0.945,
+    "key": 5,
+    "loudness": -6.445,
+    "mode": 1,
+    "speechiness": 0.0428,
+    "acousticness": 0.0639,
+    "instrumentalness": 0.165,
+    "liveness": 0.131,
+    "valence": 0.742,
+    "tempo": 112.977,
+    "type": "audio_features",
+    "id": "0Cn4UhpHhgf88eWaS9nn5u",
+    "uri": "spotify:track:0Cn4UhpHhgf88eWaS9nn5u",
+    "track_href": "https://api.spotify.com/v1/tracks/0Cn4UhpHhgf88eWaS9nn5u",
+    "analysis_url": "https://api.spotify.com/v1/audio-analysis/0Cn4UhpHhgf88eWaS9nn5u",
+    "duration_ms": 256693,
+    "time_signature": 4
 
 Do you want to pick the artist to find a similar song from?
 yes/no
