@@ -2,7 +2,7 @@
 
 <h3>
 ⚠️ Note: This project is no longer functional due to changes in the Spotify Web API as of November 2024. 
-   The API function <code>audio_features()</code>—essential to the analyzer—is no longer supported. RIP!   
+   The API endpoint used by the <code>audio_features()</code> function in Spotipy—essential to the analyzer—is no longer supported. RIP!   
 </h3>
 
 ## Features:
