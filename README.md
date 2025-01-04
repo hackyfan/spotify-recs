@@ -1,24 +1,38 @@
-Unfortunately this no longer works. It relied on audio_analysis() and audio_features(), functions that the Spotify WebAPI no longer supports as of 11/2024. RIP! 
+# Spotify Music Analyzer and Recommender
 
+<h3>
+   Unfortunately this no longer works. It relied on audio_analysis() and audio_features(), functions that the Spotify WebAPI no longer supports as of 11/2024. RIP! 
+   
+</h3>
 
-Available Actions:
-Input a related artist and get a list of up to ten, or however many you specify, related artists
-Input a song and get the spotify analysis of its mood, poppiness, bounciness, etc
-You're also able to get a list of songs with similar spotify analysis by the related artist of the singer
+## Available Actions:
+- Input a related artist and get a list of up to ten, or however many you specify, related artists
+- Input a song and get the spotify analysis of its mood, poppiness, bounciness, etc
+- You're also able to get a list of songs with similar spotify analysis by the related artist of the singer
 
+## Features
 
-Requires: Python, spotipy
+- **Artist and Song Search**: Search for an artist or songs by name to begin analysis.
+- **Audio Feature Analysis**: Analyzes audio features like tempo, loudness, and key to identify patterns in your favorite songs.
+- **Related Artists and Songs**: Recommends artists and songs based on your input.
+  
 
-Example interaction: 
+## Requirements
+
+- Python 3.8 or later
+- Installing spotipy
+  
+<h1>
+Example Interaction: 
+</h1>
 
 Welcome to Lillian's Spotify Music Analyzer Service.
 （✿ ͡◕ ᴗ◕)つ━━✫・*。・*。・*。・*。
 
 Who's an artist you already like? Fontaines D.C.
 Enter one or more of your favorite songs by this artist, separated by commas. Make sure it is spelled correctly: 
-Boys in the Better Land, Televised Mind
+> Boys in the Better Land, Televised Mind
 
-How many related artists do you want? 3
 After analyzing your songs, here are your recommendations:
 1. Sha Sha Sha by Fontaines D.C.
    https://open.spotify.com/track/7BFwBubozsalZrZKGUAYJq
