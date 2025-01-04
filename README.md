@@ -1,21 +1,14 @@
 # Spotify Music Analyzer and Recommender
 
 <h3>
-   Unfortunately this no longer works. It relied on audio_analysis() and audio_features(), functions that the Spotify WebAPI no longer supports as of 11/2024. RIP! 
-   
+⚠️ Note: This project is no longer functional due to changes in the Spotify Web API as of November 2024. 
+   The API function <code>audio_features()</code>—essential to the analyzer—is no longer supported. RIP!   
 </h3>
 
-## Available Actions:
-- Input a related artist and get a list of up to ten, or however many you specify, related artists
-- Input a song and get the spotify analysis of its mood, poppiness, bounciness, etc
-- You're also able to get a list of songs with similar spotify analysis by the related artist of the singer
-
-## Features
-
-- **Artist and Song Search**: Search for an artist or songs by name to begin analysis.
-- **Audio Feature Analysis**: Analyzes audio features like tempo, loudness, and key to identify patterns in your favorite songs.
-- **Related Artists and Songs**: Recommends artists and songs based on your input.
-  
+## Features:
+- Find Related Artists: Input an artist's name to get a list of up to 10 (or a custom-specified number) of related artists.
+- Analyze a Song: Enter a song to get an analysis of its mood, tempo, key, energy, and other characteristics.
+- Discover Similar Songs: Generate a list of songs with similar audio profiles by related artists.
 
 ## Requirements
 
