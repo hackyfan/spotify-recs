@@ -1,5 +1,3 @@
-# NAME: Lillian Murtonen
-# ID: 2140930924
 # DATE: 2023-05-04
 # DESCRIPTION: This program receives an artist from the user and recommends similar artists. It
 # also recommends songs from these artists according to how similar the song is to songs the
@@ -15,11 +13,10 @@ from spotipy.oauth2 import SpotifyClientCredentials
 client_id = 'INSERT YOUR OWN KEYS'
 client_secret = 'INSERT YOUR OWN KEYS'
 
-# get authorization token, create instance of class (SpotifyClientCredentials)
-client_credentials_manager = SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)
-# access Spotify API via python via spotipy
-spotify = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
-
+spotify = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id="client_id",
+                                               client_secret="client_secret",
+                                               redirect_uri="INSERT YOUR REDIRECT LINK HERE",
+                                               scope="user-library-read"))
 
 # checked out
 def get_liked_artist_id(liked_artist: str) -> str:
